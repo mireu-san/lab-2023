@@ -23,5 +23,5 @@ It's also a good practice to git pull to make sure your local repository is up t
 
 # react-to-typescript
 Links:
-https://readme.so/
-https://gist.github.com/lmcneel/45594e550a3403d589bdcaad38138a83
+- https://readme.so/
+- https://gist.github.com/lmcneel/45594e550a3403d589bdcaad38138a83
