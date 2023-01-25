@@ -17,11 +17,11 @@ Here are the steps you should follow:
 You don't need to pull the repository first, but if you have made changes to the remote repository or if you are going to merge the remote with your local, you should pull the repository before you push your changes.
 
 It's also a good practice to git pull to make sure your local repository is up to date with the remote before you push.
-
-# lab-webgl-unity
-
-
 # react-to-typescript
 Links:
 - https://readme.so/
 - https://gist.github.com/lmcneel/45594e550a3403d589bdcaad38138a83
+
+# react-webgl-unity
+- npm i react-unity-webgl
+
