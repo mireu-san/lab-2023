@@ -26,3 +26,7 @@ Links:
 - npm i react-unity-webgl
 - https://github.com/icicbltd/icicb-casino-wheel-react
 - Disclaimer : I do not own any rights of the original copyright holder who made this unity build.s
+
+Extra
+- How to solve white arrow folder issue with your local repository and your remote repository in github?
+A. https://stackoverflow.com/questions/62056294/github-folders-have-a-white-arrow-on-them & https://shortcuts.tistory.com/30
