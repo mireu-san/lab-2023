@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import DatePicker from 'react-datepicker';
- 
+import { ko } from 'date-fns/esm/locale';
+
 import "react-datepicker/dist/react-datepicker.css";
 
 class App extends Component {
@@ -21,6 +22,23 @@ class App extends Component {
     e.preventDefault();
     console.log(this.state.startDate)
   }
+
+  filterPassedTime = (time) => {
+    const currentDate = new Date();
+    const selectedDate = new Date(time);
+
+    return currentDate.getTime() < selectedDate.getTime();
+  };
+
+
+
+  // filterPassedDate = (time) => {
+  //   const currentDate = new Date();
+  //   const selectedDate = new Date(time);
+
+  //   return currentDate.getDay() < selectedDate.getDay();
+  // };
+ 
  
   render() {
     return (
@@ -29,11 +47,15 @@ class App extends Component {
           <DatePicker
               selected={ this.state.startDate }
               onChange={ this.handleChange }
+              locale={ko}
               showTimeSelect
+              filterTime={this.filterPassedTime}
+              minDate={new Date()}
+              // maxDate={addDays(new Date(), 5)}
               timeFormat="HH:mm"
               timeIntervals={20}
-              timeCaption="time"
-              dateFormat="MMMM d, yyyy h:mm aa"
+              timeCaption="시간"
+              dateFormat="yyyy, MMMM d, aa h:mm"
           />
           {/* <button className="btn btn-primary">시간 보이기</button> */}
         </div>
