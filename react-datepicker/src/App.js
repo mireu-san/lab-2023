@@ -35,7 +35,7 @@ class App extends Component {
               timeCaption="time"
               dateFormat="MMMM d, yyyy h:mm aa"
           />
-          <button className="btn btn-primary">Show Date</button>
+          {/* <button className="btn btn-primary">시간 보이기</button> */}
         </div>
       </form>
     );
