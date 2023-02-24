@@ -1,6 +1,7 @@
 import './App.css';
-import axios from 'axios';
 import Create from './components/create';
+import Read from './components/read';
+import Update from './components/update';
 
 function App() {
   return (
@@ -8,6 +9,10 @@ function App() {
     <h2 className="main-header">React Crud Operations</h2>
     <div>
       <Create />
+      <p></p>
+      <Read />
+      <fr />
+      <Update />
     </div>
   </div>
   );
