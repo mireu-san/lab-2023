@@ -1,5 +1,11 @@
 {
   "dependencies": {
-    "styled-components": "^5.3.6"
+    "@mui/x-date-pickers": "^5.0.19",
+    "moment": "^2.29.4",
+    "react-datepicker": "^4.10.0",
+    "react-redux": "^8.0.5",
+    "redux-store": "^0.0.0",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4"
   }
 }
